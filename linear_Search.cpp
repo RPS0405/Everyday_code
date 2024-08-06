@@ -19,4 +19,6 @@ int main(){
     int key=3;
 
     cout<<linearSearch(arr,size,key)<<endl;
+
+    return 0;
 }
