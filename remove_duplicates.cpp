@@ -2,9 +2,7 @@
 using namespace std;
 #include<string>
 
-
-
-void RemoveDuplicates(string str, string ans, int i, int map[]){
+void RemoveDuplicates(string str, string ans, int i, bool map[]){
     
     if(i==str.size()){
         
@@ -29,10 +27,9 @@ int main (){
     
     string str= "aabbbcddd";
     string ans= " ";
-    int map[26]= {false};
+    bool map[26]= {false};
     
     RemoveDuplicates(str, ans, 0, map);
-    
     
     return 0;
 }
